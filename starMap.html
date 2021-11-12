@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6aac71b76e4640de9fd2cd5f5daa8830 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6aac71b76e4640de9fd2cd5f5daa8830" ></div>
+        
+</body>
+<script>    
+    
+            var map_6aac71b76e4640de9fd2cd5f5daa8830 = L.map(
+                "map_6aac71b76e4640de9fd2cd5f5daa8830",
+                {
+                    center: [35.160545510847456, 126.8766049118644],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2933c28b48914134a790224de92ea3b1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var marker_b3627f086c1147ceb477e79703c2cd4d = L.marker(
+                [35.175136, 126.818062],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_18949866685947968266ebb8395b9165 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3627f086c1147ceb477e79703c2cd4d.setIcon(icon_18949866685947968266ebb8395b9165);
+        
+    
+        var popup_b5a8260f0d244ecf896af4a7a6a51a67 = L.popup({"maxWidth": 500});
+
+        
+            var html_0975de14f6bd45cea9618cc57e07948f = $(`<div id="html_0975de14f6bd45cea9618cc57e07948f" style="width: 100.0%; height: 100.0%;">광주운남DT점, 주소: 광주광역시 광산구 임방울대로 156 (운남동)</div>`)[0];
+            popup_b5a8260f0d244ecf896af4a7a6a51a67.setContent(html_0975de14f6bd45cea9618cc57e07948f);
+        
+
+        marker_b3627f086c1147ceb477e79703c2cd4d.bindPopup(popup_b5a8260f0d244ecf896af4a7a6a51a67)
+        ;
+
+        
+    
+    
+            var marker_dd598fe75db04d1fbff8b4f70adb1c32 = L.marker(
+                [35.146768, 126.77772],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_27cec89acc414d47ae7dc1994f1544f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd598fe75db04d1fbff8b4f70adb1c32.setIcon(icon_27cec89acc414d47ae7dc1994f1544f3);
+        
+    
+        var popup_e2707b748adb473f9eb757f0ccf909a2 = L.popup({"maxWidth": 500});
+
+        
+            var html_a17e201e233b4c238cd8586b9a8e127d = $(`<div id="html_a17e201e233b4c238cd8586b9a8e127d" style="width: 100.0%; height: 100.0%;">광주선운DT점, 주소: 광주광역시 광산구 선운로 20번길 63 </div>`)[0];
+            popup_e2707b748adb473f9eb757f0ccf909a2.setContent(html_a17e201e233b4c238cd8586b9a8e127d);
+        
+
+        marker_dd598fe75db04d1fbff8b4f70adb1c32.bindPopup(popup_e2707b748adb473f9eb757f0ccf909a2)
+        ;
+
+        
+    
+    
+            var marker_d4314d16c0b54e829f8bac016a4f8be2 = L.marker(
+                [35.173524, 126.804191],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_b11c9a682cd7452a85b779a630dbec88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4314d16c0b54e829f8bac016a4f8be2.setIcon(icon_b11c9a682cd7452a85b779a630dbec88);
+        
+    
+        var popup_818213d87b2b49608054468e3b3bb0c1 = L.popup({"maxWidth": 500});
+
+        
+            var html_6787a8767a8a49c78e2aae69253293f3 = $(`<div id="html_6787a8767a8a49c78e2aae69253293f3" style="width: 100.0%; height: 100.0%;">광주산정DT점, 주소: 광주광역시 광산구 용아로 342 (산정동)</div>`)[0];
+            popup_818213d87b2b49608054468e3b3bb0c1.setContent(html_6787a8767a8a49c78e2aae69253293f3);
+        
+
+        marker_d4314d16c0b54e829f8bac016a4f8be2.bindPopup(popup_818213d87b2b49608054468e3b3bb0c1)
+        ;
+
+        
+    
+    
+            var marker_0ef7db806f844701917a898bd3eeca20 = L.marker(
+                [35.176936, 126.807887],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_6d5c84665a7f4c6a80cc43cf0a004087 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0ef7db806f844701917a898bd3eeca20.setIcon(icon_6d5c84665a7f4c6a80cc43cf0a004087);
+        
+    
+        var popup_76a855f2ff30487b87f5b707d06f6d64 = L.popup({"maxWidth": 500});
+
+        
+            var html_f9b705be36694157bc26e3a615e9153a = $(`<div id="html_f9b705be36694157bc26e3a615e9153a" style="width: 100.0%; height: 100.0%;">광주흑석DT점, 주소: 광주광역시 광산구 사암로 367 (산정동)</div>`)[0];
+            popup_76a855f2ff30487b87f5b707d06f6d64.setContent(html_f9b705be36694157bc26e3a615e9153a);
+        
+
+        marker_0ef7db806f844701917a898bd3eeca20.bindPopup(popup_76a855f2ff30487b87f5b707d06f6d64)
+        ;
+
+        
+    
+    
+            var marker_c9f148cfc68c4b6aa1376cb6a9884457 = L.marker(
+                [35.203175, 126.819065],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_ce2cad0f71cb45c195453f53f921cb2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9f148cfc68c4b6aa1376cb6a9884457.setIcon(icon_ce2cad0f71cb45c195453f53f921cb2c);
+        
+    
+        var popup_554d22a01c134eebbd13c8486a019b81 = L.popup({"maxWidth": 500});
+
+        
+            var html_ec42d3a0ff0d43489651c8e588e8ddd7 = $(`<div id="html_ec42d3a0ff0d43489651c8e588e8ddd7" style="width: 100.0%; height: 100.0%;">광주수완DT점, 주소: 광주광역시 광산구 임방울대로 487 (수완동)</div>`)[0];
+            popup_554d22a01c134eebbd13c8486a019b81.setContent(html_ec42d3a0ff0d43489651c8e588e8ddd7);
+        
+
+        marker_c9f148cfc68c4b6aa1376cb6a9884457.bindPopup(popup_554d22a01c134eebbd13c8486a019b81)
+        ;
+
+        
+    
+    
+            var marker_bcc061f582a94cbe9392312748db594d = L.marker(
+                [35.1790467, 126.8301259],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_69e468a39afc453191db1799388f5acf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bcc061f582a94cbe9392312748db594d.setIcon(icon_69e468a39afc453191db1799388f5acf);
+        
+    
+        var popup_fb81d8ee4c4a44af97dd4a8521e706a9 = L.popup({"maxWidth": 500});
+
+        
+            var html_4c3b9fd030a541d1a1ffcda81b75a797 = $(`<div id="html_4c3b9fd030a541d1a1ffcda81b75a797" style="width: 100.0%; height: 100.0%;">광주신가DT점, 주소: 광주광역시 광산구 목련로 335 (신가동)</div>`)[0];
+            popup_fb81d8ee4c4a44af97dd4a8521e706a9.setContent(html_4c3b9fd030a541d1a1ffcda81b75a797);
+        
+
+        marker_bcc061f582a94cbe9392312748db594d.bindPopup(popup_fb81d8ee4c4a44af97dd4a8521e706a9)
+        ;
+
+        
+    
+    
+            var marker_686bae86215f4eb2ab97fcefb3709cef = L.marker(
+                [35.222888, 126.834962],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_3dffd3e2200041b982497d6b706763d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_686bae86215f4eb2ab97fcefb3709cef.setIcon(icon_3dffd3e2200041b982497d6b706763d6);
+        
+    
+        var popup_f850a5afda5c43a4b8295df4f4e32505 = L.popup({"maxWidth": 500});
+
+        
+            var html_381652c895314f4ea6ad0bc28260114f = $(`<div id="html_381652c895314f4ea6ad0bc28260114f" style="width: 100.0%; height: 100.0%;">광주비아DT점, 주소: 광주광역시 광산구 첨단과기로 81 (비아동)</div>`)[0];
+            popup_f850a5afda5c43a4b8295df4f4e32505.setContent(html_381652c895314f4ea6ad0bc28260114f);
+        
+
+        marker_686bae86215f4eb2ab97fcefb3709cef.bindPopup(popup_f850a5afda5c43a4b8295df4f4e32505)
+        ;
+
+        
+    
+    
+            var marker_a9bcfbc712834febae67133a3aebf775 = L.marker(
+                [35.145516, 126.890794],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_6c9d3aeef244443bbc7eeaf9fee8cafc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a9bcfbc712834febae67133a3aebf775.setIcon(icon_6c9d3aeef244443bbc7eeaf9fee8cafc);
+        
+    
+        var popup_3305a4f0e9f843238dd68cf856240f72 = L.popup({"maxWidth": 500});
+
+        
+            var html_657932160dde4264b8fb9e95af1c5f1b = $(`<div id="html_657932160dde4264b8fb9e95af1c5f1b" style="width: 100.0%; height: 100.0%;">광주월산DT점, 주소: 광주광역시 남구 대남대로 386</div>`)[0];
+            popup_3305a4f0e9f843238dd68cf856240f72.setContent(html_657932160dde4264b8fb9e95af1c5f1b);
+        
+
+        marker_a9bcfbc712834febae67133a3aebf775.bindPopup(popup_3305a4f0e9f843238dd68cf856240f72)
+        ;
+
+        
+    
+    
+            var marker_e198b7b969384afea49fc788cf1af25c = L.marker(
+                [35.1341387, 126.8981372],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_622464d1556845de90715c7914d73646 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e198b7b969384afea49fc788cf1af25c.setIcon(icon_622464d1556845de90715c7914d73646);
+        
+    
+        var popup_8c20ff742a0c4f53993c8cecd231b56d = L.popup({"maxWidth": 500});
+
+        
+            var html_f7c7b8332d534208807810cab281850c = $(`<div id="html_f7c7b8332d534208807810cab281850c" style="width: 100.0%; height: 100.0%;">광주주월DT점, 주소: 광주광역시 남구 회재로 1256 (주월동)</div>`)[0];
+            popup_8c20ff742a0c4f53993c8cecd231b56d.setContent(html_f7c7b8332d534208807810cab281850c);
+        
+
+        marker_e198b7b969384afea49fc788cf1af25c.bindPopup(popup_8c20ff742a0c4f53993c8cecd231b56d)
+        ;
+
+        
+    
+    
+            var marker_592ae75719374bd4b5b6a85066cf03e2 = L.marker(
+                [35.100033, 126.871253],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_bb6710925aa147e1b083223f61cd8713 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_592ae75719374bd4b5b6a85066cf03e2.setIcon(icon_bb6710925aa147e1b083223f61cd8713);
+        
+    
+        var popup_abf2e54b034546e0b6430dec77dcf4c6 = L.popup({"maxWidth": 500});
+
+        
+            var html_85795c131c4447699450f0c42ca03cb2 = $(`<div id="html_85795c131c4447699450f0c42ca03cb2" style="width: 100.0%; height: 100.0%;">광주효천DT점, 주소: 광주광역시 남구 임암동 141-3, 143-2</div>`)[0];
+            popup_abf2e54b034546e0b6430dec77dcf4c6.setContent(html_85795c131c4447699450f0c42ca03cb2);
+        
+
+        marker_592ae75719374bd4b5b6a85066cf03e2.bindPopup(popup_abf2e54b034546e0b6430dec77dcf4c6)
+        ;
+
+        
+    
+    
+            var marker_34413c9f91ea4ff09a9c08b81ca72425 = L.marker(
+                [35.13498, 126.917698],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_16190fc4a5214fa29f310b10f5eacdea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_34413c9f91ea4ff09a9c08b81ca72425.setIcon(icon_16190fc4a5214fa29f310b10f5eacdea);
+        
+    
+        var popup_d834bf47b093410fa79abd4aba1f4801 = L.popup({"maxWidth": 500});
+
+        
+            var html_43484f48222d42feb388a60bb60897ce = $(`<div id="html_43484f48222d42feb388a60bb60897ce" style="width: 100.0%; height: 100.0%;">광주방림DT점, 주소: 광주광역시 남구 대남대로 67 (방림동)</div>`)[0];
+            popup_d834bf47b093410fa79abd4aba1f4801.setContent(html_43484f48222d42feb388a60bb60897ce);
+        
+
+        marker_34413c9f91ea4ff09a9c08b81ca72425.bindPopup(popup_d834bf47b093410fa79abd4aba1f4801)
+        ;
+
+        
+    
+    
+            var marker_07ac595a66c24b8ba68d762c94c0b4ac = L.marker(
+                [35.149728, 126.92907],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_a05c4e6638bb45dea1bd4334a31c5b15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07ac595a66c24b8ba68d762c94c0b4ac.setIcon(icon_a05c4e6638bb45dea1bd4334a31c5b15);
+        
+    
+        var popup_1dbb5d450cec4f6f863c1a5f7882fa03 = L.popup({"maxWidth": 500});
+
+        
+            var html_9b67a4cdc6e34bea8d38d19b60d64376 = $(`<div id="html_9b67a4cdc6e34bea8d38d19b60d64376" style="width: 100.0%; height: 100.0%;">광주지산DT점, 주소: 광주광역시 동구 필문대로 240</div>`)[0];
+            popup_1dbb5d450cec4f6f863c1a5f7882fa03.setContent(html_9b67a4cdc6e34bea8d38d19b60d64376);
+        
+
+        marker_07ac595a66c24b8ba68d762c94c0b4ac.bindPopup(popup_1dbb5d450cec4f6f863c1a5f7882fa03)
+        ;
+
+        
+    
+    
+            var marker_8e656d19351145ad9163ba691161ca22 = L.marker(
+                [35.1175025, 126.9340006],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_00b403a974ff44dfb94bfc3b1afbff53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e656d19351145ad9163ba691161ca22.setIcon(icon_00b403a974ff44dfb94bfc3b1afbff53);
+        
+    
+        var popup_ec0307d05c26461aa0f286e4826e3d19 = L.popup({"maxWidth": 500});
+
+        
+            var html_8db651c0e0ef44a0898f5457faec837b = $(`<div id="html_8db651c0e0ef44a0898f5457faec837b" style="width: 100.0%; height: 100.0%;">광주지원DT점, 주소: 광주광역시 동구 남문로 529 (용산동)</div>`)[0];
+            popup_ec0307d05c26461aa0f286e4826e3d19.setContent(html_8db651c0e0ef44a0898f5457faec837b);
+        
+
+        marker_8e656d19351145ad9163ba691161ca22.bindPopup(popup_ec0307d05c26461aa0f286e4826e3d19)
+        ;
+
+        
+    
+    
+            var marker_320cd9b7b8a2487cb7e506eb0e81c0cf = L.marker(
+                [35.197688, 126.866803],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_ef22dcfac3834276867eeae8d10fec27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_320cd9b7b8a2487cb7e506eb0e81c0cf.setIcon(icon_ef22dcfac3834276867eeae8d10fec27);
+        
+    
+        var popup_612063b8709b47e1a7d38f46ef9cdf52 = L.popup({"maxWidth": 500});
+
+        
+            var html_d611a9e9053e4434aae99c0234bba12d = $(`<div id="html_d611a9e9053e4434aae99c0234bba12d" style="width: 100.0%; height: 100.0%;">광주연제DT점, 주소: 광주광역시 북구 양일로18번길 2 (연제동)</div>`)[0];
+            popup_612063b8709b47e1a7d38f46ef9cdf52.setContent(html_d611a9e9053e4434aae99c0234bba12d);
+        
+
+        marker_320cd9b7b8a2487cb7e506eb0e81c0cf.bindPopup(popup_612063b8709b47e1a7d38f46ef9cdf52)
+        ;
+
+        
+    
+    
+            var marker_0b803da20e36474f9c9011f191c88234 = L.marker(
+                [35.171678, 126.894998],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_50e7fb4b02dd4675948179ee2a1d0ab5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0b803da20e36474f9c9011f191c88234.setIcon(icon_50e7fb4b02dd4675948179ee2a1d0ab5);
+        
+    
+        var popup_4ead64d2888b4fd2b501260cec654906 = L.popup({"maxWidth": 500});
+
+        
+            var html_69627ae41fd84d8f9140a94a3d4ff056 = $(`<div id="html_69627ae41fd84d8f9140a94a3d4ff056" style="width: 100.0%; height: 100.0%;">광주신안DT점, 주소: 광주광역시 북구 서암대로 93 (신안동)</div>`)[0];
+            popup_4ead64d2888b4fd2b501260cec654906.setContent(html_69627ae41fd84d8f9140a94a3d4ff056);
+        
+
+        marker_0b803da20e36474f9c9011f191c88234.bindPopup(popup_4ead64d2888b4fd2b501260cec654906)
+        ;
+
+        
+    
+    
+            var marker_090dcf49128b4a1cb591732416f3a177 = L.marker(
+                [35.189836, 126.898698],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_fe4ac4e0976c4038b756080b34ac4b8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_090dcf49128b4a1cb591732416f3a177.setIcon(icon_fe4ac4e0976c4038b756080b34ac4b8f);
+        
+    
+        var popup_3e2cfd8fc9dd4d21965f4f0d1d99ad25 = L.popup({"maxWidth": 500});
+
+        
+            var html_96ee249a84584303a19adfd029bf749c = $(`<div id="html_96ee249a84584303a19adfd029bf749c" style="width: 100.0%; height: 100.0%;">광주매곡DT점, 주소: 광주광역시 북구 설죽로 339 (매곡동)</div>`)[0];
+            popup_3e2cfd8fc9dd4d21965f4f0d1d99ad25.setContent(html_96ee249a84584303a19adfd029bf749c);
+        
+
+        marker_090dcf49128b4a1cb591732416f3a177.bindPopup(popup_3e2cfd8fc9dd4d21965f4f0d1d99ad25)
+        ;
+
+        
+    
+    
+            var marker_2994bbb4476f482c8352b9ac67a393ec = L.marker(
+                [35.212837, 126.868485],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_9f87cd4277b1470ca5b8159d36e72cb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2994bbb4476f482c8352b9ac67a393ec.setIcon(icon_9f87cd4277b1470ca5b8159d36e72cb8);
+        
+    
+        var popup_5fe5550579144ccebc5d946d3babc1de = L.popup({"maxWidth": 500});
+
+        
+            var html_69f8c1cfdb604bed83d3644326d09530 = $(`<div id="html_69f8c1cfdb604bed83d3644326d09530" style="width: 100.0%; height: 100.0%;">광주용두DT점, 주소: 광주광역시 북구 임방울대로 1016 (신용동)</div>`)[0];
+            popup_5fe5550579144ccebc5d946d3babc1de.setContent(html_69f8c1cfdb604bed83d3644326d09530);
+        
+
+        marker_2994bbb4476f482c8352b9ac67a393ec.bindPopup(popup_5fe5550579144ccebc5d946d3babc1de)
+        ;
+
+        
+    
+    
+            var marker_a2e4757ce9e5463884a7e5d64d304cb2 = L.marker(
+                [35.175874, 126.927584],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_f6a8c9e7593742edab14d8c76c772def = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2e4757ce9e5463884a7e5d64d304cb2.setIcon(icon_f6a8c9e7593742edab14d8c76c772def);
+        
+    
+        var popup_dd50445490c94a6b93bc3f80db66f87e = L.popup({"maxWidth": 500});
+
+        
+            var html_e43b893ce32547ce932ea2646a17e9d4 = $(`<div id="html_e43b893ce32547ce932ea2646a17e9d4" style="width: 100.0%; height: 100.0%;">동광주DT점, 주소: 광주광역시 북구 동문대로 148 (두암동)</div>`)[0];
+            popup_dd50445490c94a6b93bc3f80db66f87e.setContent(html_e43b893ce32547ce932ea2646a17e9d4);
+        
+
+        marker_a2e4757ce9e5463884a7e5d64d304cb2.bindPopup(popup_dd50445490c94a6b93bc3f80db66f87e)
+        ;
+
+        
+    
+    
+            var marker_2353ca466689490d880506f3ae7c6044 = L.marker(
+                [35.1563, 126.8831],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_434394792d5a4f9ab9e089527cf00ffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2353ca466689490d880506f3ae7c6044.setIcon(icon_434394792d5a4f9ab9e089527cf00ffb);
+        
+    
+        var popup_f9bbf148340a4c09927afa1227df120b = L.popup({"maxWidth": 500});
+
+        
+            var html_d6b983957693498d8af6851c4b80a4aa = $(`<div id="html_d6b983957693498d8af6851c4b80a4aa" style="width: 100.0%; height: 100.0%;">광주신세계DT점, 주소: 광주광역시 서구 죽봉대로 33 (화정동)</div>`)[0];
+            popup_f9bbf148340a4c09927afa1227df120b.setContent(html_d6b983957693498d8af6851c4b80a4aa);
+        
+
+        marker_2353ca466689490d880506f3ae7c6044.bindPopup(popup_f9bbf148340a4c09927afa1227df120b)
+        ;
+
+        
+    
+    
+            var marker_7ae71b0f2a10414eb8f3ceaaf43d309c = L.marker(
+                [35.1502, 126.855],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_499b51663dd74d2199eeaa5c32fb7f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ae71b0f2a10414eb8f3ceaaf43d309c.setIcon(icon_499b51663dd74d2199eeaa5c32fb7f26);
+        
+    
+        var popup_49439945504f45cbbea7a73cb218352d = L.popup({"maxWidth": 500});
+
+        
+            var html_223a2e329b0e48d89d815486fee9280a = $(`<div id="html_223a2e329b0e48d89d815486fee9280a" style="width: 100.0%; height: 100.0%;">광주상무DT점, 주소: 광주광역시 서구 상무대로 847 (쌍촌동)</div>`)[0];
+            popup_49439945504f45cbbea7a73cb218352d.setContent(html_223a2e329b0e48d89d815486fee9280a);
+        
+
+        marker_7ae71b0f2a10414eb8f3ceaaf43d309c.bindPopup(popup_49439945504f45cbbea7a73cb218352d)
+        ;
+
+        
+    
+    
+            var marker_2e18162ca21f43928219349bea3b05ab = L.marker(
+                [35.152205, 126.879997],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_6624574c86ac498d86d5cea0010cc794 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e18162ca21f43928219349bea3b05ab.setIcon(icon_6624574c86ac498d86d5cea0010cc794);
+        
+    
+        var popup_25875141ad3b4f66b34eca90c6a82f5a = L.popup({"maxWidth": 500});
+
+        
+            var html_428e55cee2f14e11b22b96d8797aa5e3 = $(`<div id="html_428e55cee2f14e11b22b96d8797aa5e3" style="width: 100.0%; height: 100.0%;">광주화정DT점, 주소: 광주광역시 서구 상무대로 1080</div>`)[0];
+            popup_25875141ad3b4f66b34eca90c6a82f5a.setContent(html_428e55cee2f14e11b22b96d8797aa5e3);
+        
+
+        marker_2e18162ca21f43928219349bea3b05ab.bindPopup(popup_25875141ad3b4f66b34eca90c6a82f5a)
+        ;
+
+        
+    
+    
+            var marker_87b4e028f4644a968430f749d7b737dc = L.marker(
+                [35.1421126, 126.85766460000002],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_561f95dcbb8c4f308e6a05b4f5a172df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_87b4e028f4644a968430f749d7b737dc.setIcon(icon_561f95dcbb8c4f308e6a05b4f5a172df);
+        
+    
+        var popup_c6128ee17c3c4092914ca812ab560b00 = L.popup({"maxWidth": 500});
+
+        
+            var html_d3289fd82e954e82a9cc8627ec27da0e = $(`<div id="html_d3289fd82e954e82a9cc8627ec27da0e" style="width: 100.0%; height: 100.0%;">광주금호DT점, 주소: 광주광역시 서구 운천로 107 (쌍촌동)</div>`)[0];
+            popup_c6128ee17c3c4092914ca812ab560b00.setContent(html_d3289fd82e954e82a9cc8627ec27da0e);
+        
+
+        marker_87b4e028f4644a968430f749d7b737dc.bindPopup(popup_c6128ee17c3c4092914ca812ab560b00)
+        ;
+
+        
+    
+    
+            var marker_b5bde91e9c7f491ea482b888e02b9051 = L.marker(
+                [35.129468, 126.847401],
+                {}
+            ).addTo(map_6aac71b76e4640de9fd2cd5f5daa8830);
+        
+    
+            var icon_7be9829c91db455bad0de2a19e727847 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5bde91e9c7f491ea482b888e02b9051.setIcon(icon_7be9829c91db455bad0de2a19e727847);
+        
+    
+        var popup_96a37b99d46a4d3e8e8375b6e445aed5 = L.popup({"maxWidth": 500});
+
+        
+            var html_28600cca7e674369ba1471224ee8244c = $(`<div id="html_28600cca7e674369ba1471224ee8244c" style="width: 100.0%; height: 100.0%;">서광주DT점, 주소: 광주광역시 서구 서광주로 23 (매월동)</div>`)[0];
+            popup_96a37b99d46a4d3e8e8375b6e445aed5.setContent(html_28600cca7e674369ba1471224ee8244c);
+        
+
+        marker_b5bde91e9c7f491ea482b888e02b9051.bindPopup(popup_96a37b99d46a4d3e8e8375b6e445aed5)
+        ;
+
+        
+    
+</script>
